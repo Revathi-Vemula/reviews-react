@@ -1,0 +1,67 @@
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.reviews-heading {
+  color: whitesmoke;
+  font-family: 'Consolas';
+  font-size: 40px;
+}
+
+.btn {
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.img-click {
+  height: 30px;
+  width: 30px;
+}
+
+.reviews-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image {
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+}
+
+.username-style {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Consolas';
+}
+
+.company-name-style {
+  color: #171f46;
+  font-size: 20px;
+  font-family: 'Consolas';
+}
+
+.desc-style {
+  color: #171f46;
+  font-size: 20px;
+  font-family: 'Consolas';
+}
